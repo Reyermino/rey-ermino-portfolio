@@ -1,0 +1,94 @@
+.projects {
+  background-color: #0b0b0b;
+}
+
+.projects .section-title {
+  color: #ffffff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: #111111;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(22, 163, 74, 0.15);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #16a34a;
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 18px 36px rgba(22, 163, 74, 0.35);
+  border-color: #22c55e;
+}
+
+.project-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #22c55e;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech-tag {
+  background-color: #dcfce7;
+  color: #14532d;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.project-link {
+  color: #16a34a;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: #15803d;
+  filter: brightness(1.1);
+}
+
+.project-card {
+  animation: fadeInUp 0.6s ease both;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.tech-tag:hover {
+  background-color: #bbf7d0;
+  transform: translateY(-2px);
+}

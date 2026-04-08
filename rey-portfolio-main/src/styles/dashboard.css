@@ -1,0 +1,167 @@
+ .dashboard {
+  background-color: #0b0b0b;
+}
+
+.dashboard .section-title {
+  color: #ffffff;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #0b0b0b 0%, #064e3b 100%);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+.profile-pic {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #16a34a;
+  box-shadow: 0 6px 16px rgba(22, 163, 74, 0.35);
+  transition: transform 0.3s ease;
+  animation: fadeInUp 0.6s ease both;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.4px;
+}
+
+.profile-title {
+  font-size: 1.2rem;
+  color: #16a34a;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.profile-bio {
+  font-size: 1rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.skill-category {
+  background: linear-gradient(135deg, #0b0b0b 0%, #052e25 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid #16a34a;
+  animation: fadeInUp 0.6s ease both;
+  transition: all 0.3s ease;
+}
+
+.skill-category h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.3px;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skill-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.skill-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #16a34a;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.skill-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  margin-right: 8px;
+  filter: drop-shadow(0 2px 6px rgba(22, 163, 74, 0.25));
+}
+
+.learning-banner {
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  animation: fadeInUp 0.6s ease both;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.learning-banner h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.learning-banner p {
+  font-size: 1rem;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .profile-title {
+    font-size: 1rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.skill-category:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 16px 32px rgba(22, 163, 74, 0.3);
+  border-color: #22c55e;
+}
+.learning-banner:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(22, 163, 74, 0.35);
+}
