@@ -5,7 +5,7 @@ export default function Home() {
     <section id="home" className="hero">
       <div className="container hero-content">
                 
-        <h1 className="hero-title">Hi, I'm Rey Ermino</h1>
+        <h1 className="hero-title">Hi, I'm Ken Ermino</h1>
         
         <p className="hero-subtitle">Web Designer & Creative Problem Solver</p>
         
