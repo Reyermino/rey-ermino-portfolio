@@ -44,7 +44,7 @@ export default function Dashboard() {
         <div className="profile-header">
           <img src="/587634979_18033757961727024_4487459457433113784_n.jpg" alt="Rey Ermino" className="profile-pic" />
           <div className="profile-info">
-            <h2 className="profile-name">Rey Ermino</h2>
+            <h2 className="profile-name">Ken Ermino</h2>
           </div>
         </div>
 
