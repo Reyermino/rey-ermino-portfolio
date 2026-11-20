@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Rey Ermino. All rights reserved.</p>
+          <p>&copy; {currentYear} Ken Ermino. All rights reserved.</p>
         </div>
       </div>
     </footer>
