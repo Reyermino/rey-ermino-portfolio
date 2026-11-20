@@ -8,7 +8,7 @@ export default function About() {
         
         <div className="about-content">
           <div className="about-image">
-            <img src="/587634979_18033757961727024_4487459457433113784_n.jpg" alt="Rey Ermino" className="profile-image" />
+            <img src="/587634979_18033757961727024_4487459457433113784_n.jpg" alt="Ken Ermino" className="profile-image" />
           </div>
           <div className="about-text">
             
