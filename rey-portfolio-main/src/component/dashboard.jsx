@@ -42,7 +42,7 @@ export default function Dashboard() {
     <section id="skills" className="dashboard section">
       <div className="container">
         <div className="profile-header">
-          <img src="/587634979_18033757961727024_4487459457433113784_n.jpg" alt="Rey Ermino" className="profile-pic" />
+          <img src="/587634979_18033757961727024_4487459457433113784_n.jpg.jpg" alt="Ken Ermino" className="profile-pic" />
           <div className="profile-info">
             <h2 className="profile-name">Ken Ermino</h2>
           </div>
